@@ -10,7 +10,7 @@
                 bool created = context.Database.EnsureCreated();
 
                 if (created)
-                {
+                { 
                     Console.WriteLine("Database created successfully");
                 }
                 else

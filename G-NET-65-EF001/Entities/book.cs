@@ -14,7 +14,7 @@ namespace G_NET_65_EF001.Entities
         public bool IsInStock { get; set; }
 
 
-        public int CategoryId { get; set; }
+        public int CategoryId { get; set; } 
         public Category Category { get; set; } = null!;
 
         
